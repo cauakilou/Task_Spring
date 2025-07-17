@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário POST</title>
+</head>
+<body>
+
+<h2>Tarefas</h2>
+
+<form action="/tasks" method="post">
+    <label for="name">Nome da Tarefa:</label><br>
+    <textarea id="name" name="name" rows="4" cols="50" required></textarea><br><br>
+
+    <button  type="submit">Enviar</button>
+</form>
+
+<form action="/tasks/list/all" method="get">
+    <button type= "Submit">mostrar </button>
+</form>
+
+
+
+</body>
+</html>
